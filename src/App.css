@@ -1,38 +1,44 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(20, 12, 12, 1) 87%
+  );
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sidebar-icon {
+  width: 20px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.765);
+}
+.sb-admin-icon {
+  width: 30px;
+  height: 30px;
+}
+.user-account-icon {
+  margin-right: 8px;
+}
+.sidebar-color {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+.right-arrow {
+  margin-left: 10px;
+  color: rgba(0, 255, 255, 0.781);
+}
+@media screen and (min-width: 320px) and (max-width: 728px) {
+  .right-arrow {
+    display: none;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-color {
+  background-color: rgba(118, 114, 114, 0.121);
 }
